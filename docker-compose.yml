@@ -1,0 +1,20 @@
+# Application cours, flashcards et quiz (cdc.md §17).
+# Une seule réplique : SQLite et worker de jobs in-process (contrainte §17).
+services:
+  app:
+    build: .
+    ports:
+      - '3000:3000'
+    env_file:
+      # Configuration et secrets : copier `.env.example` en `.env` (jamais committé).
+      - path: .env
+        required: false
+    volumes:
+      # Volumes persistants : base SQLite et fichiers sources importés.
+      - app-data:/app/data
+      - app-uploads:/app/uploads
+    restart: unless-stopped
+
+volumes:
+  app-data:
+  app-uploads:

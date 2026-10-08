@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1791427811340,
+      "tag": "0000_crazy_proteus",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1791453004412,
+      "tag": "0001_first_reptil",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1791457173168,
+      "tag": "0002_reflective_lady_mastermind",
+      "breakpoints": true
+    }
+  ]
+}

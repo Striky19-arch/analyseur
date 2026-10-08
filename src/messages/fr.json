@@ -1,0 +1,104 @@
+{
+  "common": {
+    "version": "v0.1.0",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "percent": "{value} %"
+  },
+  "metadata": {
+    "title": "Cours, flashcards et quiz",
+    "description": "Transforme tes supports de cours (Word, PowerPoint, PDF) en contenu d'étude structuré."
+  },
+  "nav": {
+    "brand": "Cours & Quiz",
+    "main": "Navigation principale",
+    "home": "Accueil",
+    "courses": "Cours",
+    "settings": "Paramètres",
+    "admin": "Admin"
+  },
+  "theme": {
+    "system": "système",
+    "light": "clair",
+    "dark": "sombre",
+    "title": "Thème : {current}",
+    "toggle": "Thème : {current}. Activer le thème {next}."
+  },
+  "language": {
+    "fr": "FR",
+    "en": "EN",
+    "switch": "Langue : {current}. Passer à {next}."
+  },
+  "status": {
+    "active": "Actif",
+    "pending": "En attente",
+    "revoked": "Révoqué",
+    "empty": "Vide",
+    "converting": "Conversion…",
+    "ready": "Prêt",
+    "failed": "Échec",
+    "generating": "Génération…",
+    "queued": "En file",
+    "running": "En cours",
+    "succeeded": "Terminé",
+    "cancelled": "Annulé"
+  },
+  "working": {
+    "title": "Travail en cours…",
+    "waiting": "Merci de patienter…",
+    "cancel": "Annuler",
+    "progress": "Progression : {value} %"
+  },
+  "home": {
+    "title": "Tableau de bord",
+    "description": "Ton espace d'apprentissage : cours, flashcards et quiz.",
+    "emptyTitle": "Rien à afficher pour l'instant",
+    "emptyDescription": "Le tableau de bord se remplira avec tes cours (étapes J4 et suivantes)."
+  },
+  "auth": {
+    "loginTitle": "Connexion",
+    "loginDescription": "Accède à ton espace d'apprentissage.",
+    "registerTitle": "Inscription",
+    "registerDescription": "Crée ton compte pour commencer.",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "toi@exemple.com",
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "12 caractères minimum",
+    "nameLabel": "Nom (optionnel)",
+    "namePlaceholder": "Ton nom",
+    "submitLogin": "Se connecter",
+    "submitRegister": "S'inscrire",
+    "submitting": "Envoi…",
+    "logout": "Se déconnecter",
+    "noAccount": "Pas encore de compte ?",
+    "haveAccount": "Déjà un compte ?",
+    "registerLink": "S'inscrire",
+    "loginLink": "Se connecter",
+    "noticeRevoked": "Votre accès a été révoqué.",
+    "closedTitle": "Inscriptions fermées",
+    "closedDescription": "La création de compte est désactivée. Contacte un administrateur.",
+    "errors": {
+      "invalid_credentials": "Identifiants invalides.",
+      "email_taken": "Cette adresse e-mail est déjà utilisée.",
+      "closed": "La création de compte est désactivée.",
+      "invalid_email": "Adresse e-mail invalide.",
+      "password_too_short": "Mot de passe trop court (12 caractères minimum).",
+      "password_too_long": "Mot de passe trop long (128 caractères maximum).",
+      "name_too_long": "Nom trop long (100 caractères maximum).",
+      "rate_limited": "Trop de tentatives. Réessayez dans un instant."
+    }
+  },
+  "courses": {
+    "title": "Mes cours",
+    "empty": "Aucun cours pour l'instant"
+  },
+  "quiz": {
+    "title": "Quiz"
+  },
+  "admin": {
+    "title": "Administration",
+    "description": "Utilisateurs, providers LLM et journal d'audit.",
+    "emptyTitle": "Administration à venir",
+    "emptyDescription": "Le tableau de bord d'administration sera livré à l'étape J2."
+  }
+}

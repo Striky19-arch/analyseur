@@ -1,0 +1,17 @@
+# Dépendances et sorties de build : reconstruites dans l'image
+node_modules
+.next
+
+# Données et secrets : jamais dans l'image (volumes à l'exécution)
+data
+uploads
+.env
+.env.*
+
+# Qualité et artefacts de tests
+coverage
+test-results
+playwright-report
+
+# Dépôt
+.git

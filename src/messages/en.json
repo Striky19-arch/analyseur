@@ -1,0 +1,104 @@
+{
+  "common": {
+    "version": "v0.1.0",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "percent": "{value}%"
+  },
+  "metadata": {
+    "title": "Courses, flashcards and quizzes",
+    "description": "Turn your course materials (Word, PowerPoint, PDF) into structured study content."
+  },
+  "nav": {
+    "brand": "Courses & Quiz",
+    "main": "Main navigation",
+    "home": "Home",
+    "courses": "Courses",
+    "settings": "Settings",
+    "admin": "Admin"
+  },
+  "theme": {
+    "system": "system",
+    "light": "light",
+    "dark": "dark",
+    "title": "Theme: {current}",
+    "toggle": "Theme: {current}. Switch to the {next} theme."
+  },
+  "language": {
+    "fr": "FR",
+    "en": "EN",
+    "switch": "Language: {current}. Switch to {next}."
+  },
+  "status": {
+    "active": "Active",
+    "pending": "Pending",
+    "revoked": "Revoked",
+    "empty": "Empty",
+    "converting": "Converting…",
+    "ready": "Ready",
+    "failed": "Failed",
+    "generating": "Generating…",
+    "queued": "Queued",
+    "running": "Running",
+    "succeeded": "Done",
+    "cancelled": "Cancelled"
+  },
+  "working": {
+    "title": "Work in progress…",
+    "waiting": "Please wait…",
+    "cancel": "Cancel",
+    "progress": "Progress: {value}%"
+  },
+  "home": {
+    "title": "Dashboard",
+    "description": "Your learning space: courses, flashcards and quizzes.",
+    "emptyTitle": "Nothing to show yet",
+    "emptyDescription": "The dashboard will fill in with your courses (steps J4 and beyond)."
+  },
+  "auth": {
+    "loginTitle": "Sign in",
+    "loginDescription": "Access your learning space.",
+    "registerTitle": "Sign up",
+    "registerDescription": "Create your account to get started.",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "12 characters minimum",
+    "nameLabel": "Name (optional)",
+    "namePlaceholder": "Your name",
+    "submitLogin": "Sign in",
+    "submitRegister": "Sign up",
+    "submitting": "Sending…",
+    "logout": "Sign out",
+    "noAccount": "No account yet?",
+    "haveAccount": "Already have an account?",
+    "registerLink": "Sign up",
+    "loginLink": "Sign in",
+    "noticeRevoked": "Your access has been revoked.",
+    "closedTitle": "Registrations closed",
+    "closedDescription": "Account creation is disabled. Contact an administrator.",
+    "errors": {
+      "invalid_credentials": "Invalid credentials.",
+      "email_taken": "This email address is already in use.",
+      "closed": "Account creation is disabled.",
+      "invalid_email": "Invalid email address.",
+      "password_too_short": "Password too short (12 characters minimum).",
+      "password_too_long": "Password too long (128 characters maximum).",
+      "name_too_long": "Name too long (100 characters maximum).",
+      "rate_limited": "Too many attempts. Try again in a moment."
+    }
+  },
+  "courses": {
+    "title": "My courses",
+    "empty": "No courses yet"
+  },
+  "quiz": {
+    "title": "Quizzes"
+  },
+  "admin": {
+    "title": "Administration",
+    "description": "Users, LLM providers and audit log.",
+    "emptyTitle": "Administration coming soon",
+    "emptyDescription": "The administration dashboard will ship at step J2."
+  }
+}

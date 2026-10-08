@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+build
+coverage
+data
+uploads
+package-lock.json
+drizzle
+cdc.md
+canevas.md
